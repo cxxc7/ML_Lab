@@ -1,28 +1,33 @@
-# ML_Lab 🚀  
-A comprehensive collection of 10 core Machine Learning lab experiments implemented in Python using standard datasets and libraries like `scikit-learn`, `pandas`, `matplotlib`, and `seaborn`.
+# 💻 ML_Lab 🚀  
+> **Hands-on Machine Learning Lab Experiments** — All in Python 🐍  
+> Visuals, Metrics, Real Datasets, and Custom Implementations!
+
+---
+
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" alt="ML Animation"/>
 
 ---
 
 ## 📚 Lab Program Index
 
-| #  | Title                                                                 | Concepts Covered                                                                |
-|----|-----------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| 1  | **Model Measurement & ROC AUC Analysis**                              | TP, FP, FN, TN, Accuracy, Precision, Recall, F1, MCC, Specificity, AUC, ROC     |
-| 2  | **Decision Tree using ID3 Algorithm**                                 | Supervised Learning, Entropy, Tree Visualization, Classification of New Sample  |
-| 3  | **Random Forest Classifier Analysis**                                 | Impact of `n_estimators`, Evaluation Metrics                                    |
-| 4  | **Simple Linear Regression**                                          | Regression, RMSE, R² Score, Visualization                                       |
-| 5  | **Logistic Regression (Univariate)**                                  | Binary Classification, Confusion Matrix, MSE, RMSE, Accuracy                    |
-| 6  | **Naive Bayes Classifier**                                            | Probabilistic Classification, Label Encoding, Prediction, Inference             |
-| 7  | **K-Nearest Neighbors (KNN) on Diabetes Dataset**                     | Manual KNN, Distance Metrics, Normalization, Accuracy Tuning                    |
-| 8  | **K-Means Clustering**                                                | Unsupervised Learning, Cluster Comparison (K=2,3,4), Silhouette Score           |
-| 9  | **Hierarchical Clustering (AGNES & DIANA)**                           | Dendrogram, Clustering, Comparison of Techniques                                |
-| 10 | **AdaBoost vs XGBoost Performance Comparison**                        | Ensemble Learning, Boosting, ROC, AUC, Metrics                                  |
+| #  | 📌 Title                                                              | 🧠 Concepts Covered                                                              |
+|----|----------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| 1  | **Model Measurement & ROC AUC Analysis**                             | TP, FP, FN, TN, Accuracy, Precision, Recall, F1, MCC, Specificity, ROC, AUC     |
+| 2  | **Decision Tree using ID3 Algorithm**                                | Supervised Learning, Entropy, Information Gain, Tree Traversal                  |
+| 3  | **Random Forest Classifier Analysis**                                | Ensemble Learning, `n_estimators`, Performance Variation                        |
+| 4  | **Simple Linear Regression**                                         | Regression, RMSE, R² Score, Best-Fit Line                                       |
+| 5  | **Logistic Regression (Univariate)**                                 | Binary Classification, Confusion Matrix, MSE, RMSE                              |
+| 6  | **Naive Bayes Classifier**                                           | Probabilistic Learning, Encoding, Prediction                                    |
+| 7  | **KNN for Diabetes Prediction**                                      | Manual KNN, Distance Metrics, Tuning, Normalization                             |
+| 8  | **K-Means Clustering**                                               | Cluster Comparison (K=2,3,4), Silhouette Score                                  |
+| 9  | **Hierarchical Clustering (AGNES & DIANA)**                          | Dendrograms, Linkages, Inference from Clusters                                  |
+| 10 | **AdaBoost vs XGBoost Performance**                                  | Boosting, AUC, ROC, Model Comparison                                            |
 
 ---
 
-## ⚙️ Requirements
+## ⚙️ Installation Requirements
 
-Install all dependencies using:
+📦 Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -30,77 +35,80 @@ pip install -r requirements.txt
 
 ---
 
-## 🛠 Main Libraries Used
-
-- numpy
-- pandas
-- scikit-learn
-- matplotlib
-- seaborn
-- xgboost *(for Program 10 only)*
-
----
-
 ## 📁 Datasets Used
 
-- Iris Dataset
-- PlayTennis.csv
-- Advertising.csv
-- diabetes1.csv *(Pima Indians Diabetes Dataset)*
-- Wine Dataset
-- Synthetic Test Samples
+- 🌼 Iris Dataset  
+- 📰 PlayTennis.csv  
+- 📊 Advertising.csv  
+- 💉 diabetes1.csv *(Pima Indians Diabetes Dataset)*  
+- 🍷 Wine Dataset  
+- 🧪 Synthetic Samples  
 
-> ✅ Most datasets are included in the repo or are loaded from `sklearn.datasets`.
-
----
-
-## 📊 Features
-
-- 🔍 Custom metric calculations (Accuracy, Precision, Recall, F1, MCC, Specificity, NPV)
-- 📈 Visualizations: ROC, AUC, Confusion Matrix, Dendrograms, Regression Line
-- 🧪 Manual and scikit-learn-based implementations
-- 🔁 Preprocessing: Label Encoding, Normalization, Missing Value Handling
-- 📊 Tabular result comparison for model tuning and performance
+> Most datasets are **built-in via `sklearn.datasets`** or included in the repo!
 
 ---
 
-## 🧠 Purpose
+## 📊 Features & Highlights
 
-This lab is designed to help students and enthusiasts:
+- 🔍 **Custom metric calculations**: Accuracy, Precision, Recall, F1, MCC, Specificity  
+- 📈 **Visualizations**: ROC, AUC, Confusion Matrix, Dendrograms, Regression Line  
+- 🧪 **Manual + Library Implementations**  
+- ♻️ **Preprocessing**: Missing values, Encoding, Normalization  
+- 📊 **Tabular comparisons** for model tuning
 
-- Gain practical experience with supervised & unsupervised ML algorithms
-- Understand performance metrics and evaluation techniques
-- Visualize model behavior and decisions
-- Apply real-world preprocessing, tuning, and model comparison strategies
+---
+
+## 🚀 Purpose
+
+This repository is designed to:
+
+✅ Make you **confident with core ML models**  
+✅ Help **visualize results clearly**  
+✅ Show both **manual and library-based methods**  
+✅ Let you experiment, tweak, and tune with **real-world datasets**
 
 ---
 
 ## ▶️ How to Run
 
-Each program is independently executable in:
+You can run each program individually using:
 
-- **Jupyter Notebook**  
-- **Python scripts (`.py`) in any IDE** like VS Code, PyCharm, or Google Colab
+- **Jupyter Notebook**:  
+  ```bash
+  jupyter notebook
+  ```
 
-To launch notebooks:
-
-```bash
-jupyter notebook
-```
+- **Python Files (`.py`)** in VS Code, PyCharm, or any IDE
 
 ---
 
-## 👨‍💻 Author
+## 💻 Author
+
+<img src="https://github.com/cxxc7.png" width="100" height="100" alt="Nikhilesh Marali"/>
 
 **Nikhilesh Marali**  
-🔗 GitHub: [https://github.com/cxxc7](https://github.com/cxxc7)
+🌐 GitHub: [@cxxc7](https://github.com/cxxc7)
+
+---
+
+## 🎥 Bonus Animations
+
+Just for fun! 🤖  
+<table>
+  <tr>
+    <td><img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="200"/></td>
+    <td><img src="https://media.giphy.com/media/xUOxfjsW4C54TuXKPe/giphy.gif" width="200"/></td>
+    <td><img src="https://media.giphy.com/media/dsKnRuALlWsZG/giphy.gif" width="200"/></td>
+  </tr>
+</table>
 
 ---
 
 ## 📜 License
 
-This project is licensed for **academic and personal use only**.
-
-Feel free to reference or build on the code with credit.
+This project is open for **academic & personal use**.  
+Feel free to **fork and learn**, but give credit when reused 🌟
 
 ---
+
+🧠 _Keep experimenting. Keep learning!_
