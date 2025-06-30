@@ -22,12 +22,12 @@ A comprehensive collection of 10 core Machine Learning lab experiments implement
 
 ## ⚙️ Requirements
 
-Install dependencies using:
+Install all dependencies using:
 
 ```bash
 pip install -r requirements.txt
-Main libraries used:
 
+🛠 Main Libraries Used
 numpy
 
 pandas
@@ -38,9 +38,12 @@ matplotlib
 
 seaborn
 
-xgboost (for Program 10)
+xgboost (only for Program 10)
 
+---
+```
 📁 Datasets Used
+```
 Iris Dataset
 
 PlayTennis.csv
@@ -51,44 +54,53 @@ diabetes1.csv (Pima Indians Diabetes Dataset)
 
 Wine Dataset
 
-Synthetic test samples
+Synthetic Test Samples
 
-All datasets are included in the repo or loaded from sklearn.datasets.
+✅ Most datasets are included in the repo or loaded via sklearn.datasets.
 
+```
 📊 Features
+```
 🔍 Custom metric calculations (Accuracy, Precision, Recall, F1, MCC, etc.)
 
-📈 Visualization: ROC, AUC, Confusion Matrix, Dendrograms, Regression Line
+📈 Visualizations: ROC, AUC, Confusion Matrix, Dendrograms, Regression Line
 
-🧪 Manual & library-based implementations
+🧪 Manual and scikit-learn-based implementations
 
 🔁 Preprocessing: Label Encoding, Normalization, Missing Value Handling
 
-📊 Tabular result comparisons
+📊 Tabular result comparison across experiments
 
+```
 🧠 Purpose
+```
 This lab aims to provide hands-on experience in:
 
-Implementing ML algorithms
+Implementing machine learning algorithms from scratch and using libraries
 
-Evaluating performance using standard metrics
+Evaluating performance with industry-standard metrics
 
-Visualizing model behavior
+Visualizing and interpreting model behavior
 
-Understanding data preprocessing and tuning
+Understanding effective preprocessing and model tuning techniques
 
+```
 ▶️ How to Run
-Each file is independently runnable in Jupyter Notebook or any Python IDE:
-
-bash
+```
+Each program is self-contained and can be run via:
+```
+```bash
 Copy
 Edit
 jupyter notebook
-Or open .py files directly.
+```
+```
+Or open .py files directly in any Python IDE or text editor (e.g., VSCode, PyCharm).
 
+```
 👨‍💻 Author
 Nikhilesh Marali
-📌 GitHub
+🔗 GitHub: https://github.com/cxxc7
 
 📜 License
-This project is licensed for academic and personal use.
+This project is licensed for academic and personal use only.
