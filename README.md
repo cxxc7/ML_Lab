@@ -4,7 +4,7 @@
 
 ---
 
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" alt="ML Animation"/>
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="20%" alt="ML Animation"/>
 
 ---
 
@@ -88,19 +88,6 @@ You can run each program individually using:
 
 **Nikhilesh Marali**  
 🌐 GitHub: [@cxxc7](https://github.com/cxxc7)
-
----
-
-## 🎥 Bonus Animations
-
-Just for fun! 🤖  
-<table>
-  <tr>
-    <td><img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="200"/></td>
-    <td><img src="https://media.giphy.com/media/xUOxfjsW4C54TuXKPe/giphy.gif" width="200"/></td>
-    <td><img src="https://media.giphy.com/media/dsKnRuALlWsZG/giphy.gif" width="200"/></td>
-  </tr>
-</table>
 
 ---
 
